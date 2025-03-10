@@ -1,7 +1,0 @@
-#!/bin/bash
-# Instalar JupyterLab
-pip install jupyterlab
-
-# Configurar JupyterLab para modo solo lectura
-mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension
-echo '{"readOnly": true}' > ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
